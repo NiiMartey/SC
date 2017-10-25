@@ -1,0 +1,2172 @@
+/* 
+** HERO SECTION 
+*/
+
+.hero-bg .editorial {
+    min-height: 530px
+}
+
+.hero-bg .editorial-container {
+    height: 530px;
+    line-height: 530px
+}
+
+.hero-bg.hero-pop-out {
+    height: 42.85714285714286em;
+    line-height: 42.85714285714286em
+}
+
+.hero-bg.hero-pop-out .editorial-container {
+    height: 42.85714285714286em;
+    line-height: 42.85714285714286em
+}
+
+.hero-bg.dark .editorial-container {
+    height: 25.71428571428571em;
+    line-height: 25.71428571428571em
+}
+
+.hero-bg img {
+    vertical-align: bottom
+}
+
+.editorial {
+    min-height: 37.85714285714286em
+}
+
+.editorial-container {
+    height: 37.85714285714286em;
+    line-height: 37.85714285714286em
+}
+
+.four-panel .span3 {
+    padding-right: 2%
+}
+
+.hero-bg,
+.editorial {
+    min-width: 71.71428571428571em
+}
+
+.lightContent {
+    background-color: #333
+}
+
+.lightContent,
+.lightContent h1,
+.lightContent h3,
+.lightContent h2,
+.lightContent h3,
+.lightContent h4,
+.lightContent p,
+.lightContent a {
+    color: #fff
+}
+
+.closing-cta {
+    width: 30%;
+    margin-top: 28px
+}
+
+.rtl .row-fluid .heroBtn {
+    float: right
+}
+
+.hero-bg .hatch {
+    clear: both
+}
+
+.rtl .hero-hugger .country-selector {
+    float: right
+}
+
+.rtl .button-menu .icon {
+    text-indent: 999em
+}
+
+.rtl .contentLink:first-of-type {
+    border-right: none;
+    padding-right: 0
+}
+
+.rtl .contentLink {
+    border-right: 1px solid #ddd;
+    border-left: 0;
+    padding-left: 0;
+    padding-right: 10px;
+    margin: 0 0 0 6px
+}
+
+html .rtl p.circle {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0
+}
+
+.rtl section.row-fluid .steps {
+    float: right
+}
+
+.rtl ul.organizedList {
+    padding-right: 0
+}
+
+.rtl #sticky-nav.row-fluid [class*=span] {
+    float: right;
+    margin-right: 2%;
+    margin-left: 0
+}
+
+.rtl #sticky-nav.row-fluid [class*=span]:first-child {
+    margin-right: 0
+}
+
+.rtl .input-wrapper {
+    text-align: right\9
+}
+
+.rtl header #main-menu .subnav .form-inline .placeholder {
+    text-align: right\9;
+    right: 0!important
+}
+
+
+/* 
+** BODY SECTION 
+*/
+
+.pal-blue {
+    background-color: #009cde
+}
+
+.pay-blue {
+    background-color: #003087
+}
+
+.pink {
+    background-color: #de0063
+}
+
+.purple {
+    background-color: #640487
+}
+
+.green {
+    background-color: #00cf92
+}
+
+.orange {
+    background-color: #ff9600
+}
+
+.pink,
+.purple,
+.green,
+.orange,
+.pink *,
+.purple *,
+.green *,
+.orange *,
+.pay-blue *,
+.pal-blue * {
+    color: #fff
+}
+
+@font-face {
+    font-family: "pp-sans-big-bold";
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.eot");
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.svg") format("svg")
+}
+
+@font-face {
+    font-family: "pp-sans-big-light";
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.eot");
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.svg") format("svg")
+}
+
+@font-face {
+    font-family: "pp-sans-big-medium";
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.eot");
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.svg") format("svg")
+}
+
+@font-face {
+    font-family: "pp-sans-big-regular";
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.eot");
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.svg") format("svg")
+}
+
+@font-face {
+    font-family: "pp-sans-big-thin";
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.eot");
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.svg") format("svg")
+}
+
+@font-face {
+    font-family: "pp-sans-small-bold";
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.eot");
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.svg") format("svg")
+}
+
+@font-face {
+    font-family: "pp-sans-small-light";
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.eot");
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.svg") format("svg")
+}
+
+@font-face {
+    font-family: "pp-sans-small-medium";
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.eot");
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.svg") format("svg")
+}
+
+@font-face {
+    font-family: "pp-sans-small-regular";
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.eot");
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.svg") format("svg")
+}
+
+@font-face {
+    font-family: "pp-sans-small-thin";
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.eot");
+    src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.eot?#iefix") format("embedded-opentype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.woff") format("woff"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/headlinedark/festivo1.ttf") format("truetype"), url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.svg") format("svg")
+}
+
+.pp-sans-big-bold {
+    font-family: "pp-sans-big-bold", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.pp-sans-big-light {
+    font-family: "pp-sans-big-light", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.pp-sans-big-medium {
+    font-family: "pp-sans-big-medium", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.pp-sans-big-regular {
+    font-family: "pp-sans-big-regular", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.pp-sans-small-bold {
+    font-family: "pp-sans-small-bold", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.pp-sans-small-light {
+    font-family: "pp-sans-small-light", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.pp-sans-small-medium {
+    font-family: "pp-sans-small-medium", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.pp-sans-small-regular {
+    font-family: "pp-sans-small-regular", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal
+}
+
+.pp-sans-small-thin {
+    font-family: "pp-sans-small-thin", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-Regular';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_0_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_0_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_0_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_0_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-ExLightItalic';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_1_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_1_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_1_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_1_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-Heavy';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_2_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_2_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_2_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_2_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-Thin';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_3_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_3_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_3_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_3_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-ExBoldItalic';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_4_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_4_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_4_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_4_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-ThinItalic';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_5_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_5_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_5_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_5_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-Bold';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_6_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_6_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_6_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_6_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-RegularItalic';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_7_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_7_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_7_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_7_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-ExLight';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_8_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_8_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_8_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_8_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-LightItalic';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_9_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_9_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_9_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_9_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-Light';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_A_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_A_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_A_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_A_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-BoldItalic';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_B_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_B_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_B_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_B_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-HeavyItalic';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_C_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_C_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_C_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_C_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'DharmaGothicE-ExBold';
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_D_0.eot');
+    src: url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_D_0.eot?#iefix') format('embedded-opentype'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_D_0.woff') format('woff'), url('https://www.paypalobjects.com/webstatic/mktg/2014design/font/Dharma-Gothic-Expanded/webfonts/2F7DFA_D_0.ttf') format('truetype')
+}
+
+.appBanner {
+    padding: 5px 0;
+    z-index: 50
+}
+
+.appBanner--hide {
+    display: none
+}
+
+.appBanner--close {
+    position: absolute;
+    width: 30px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    vertical-align: middle;
+    padding: 25px 0;
+    color: #d0d0d0;
+    text-align: center;
+    font-size: 20px
+}
+
+.appBanner--close:hover {
+    text-decoration: none
+}
+
+.appBanner--logo {
+    float: left;
+    margin: 0 10px
+}
+
+.appBanner--test {
+    float: none
+}
+
+.appBanner--text {
+    float: left;
+    width: 60%;
+    line-height: 1.3rem;
+    padding-top: 2px
+}
+
+.appBanner--headline {
+    display: block;
+    white-space: nowrap;
+    font-size: 18px
+}
+
+@media only screen and (orientation:landscape) {
+    html[data-device-type="mobile"] .appBanner--headline {
+        margin-top: 7px
+    }
+}
+
+.appBanner--link {
+    margin-top: 20px;
+    float: right;
+    font-size: 16px
+}
+
+@media only screen and (orientation:landscape) {
+    html[data-device-type="mobile"] .appBanner--link {
+        right: 30px
+    }
+}
+
+body.open .appBanner {
+    -webkit-transform: translate3d(-240px, 0, 0);
+    -ms-transform: translate(-240px, 0);
+    transform: translate(-240px, 0)
+}
+
+@keyframes pulse {
+    from {
+        box-shadow: 0 0 0 5px rgba(255, 255, 255, 0)
+    }
+    to {
+        box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5)
+    }
+}
+
+.twin-hero {
+    height: 580px;
+    background-color: black;
+    padding-top: 0 !important;
+    width: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+html[data-device-type="mobile"] .twin-hero {
+    height: 565px
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .hero-shadow {
+    position: absolute;
+    z-index: 40;
+    width: 100%;
+    height: 72px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.07))
+}
+
+.twin-hero .hero-container {
+    width: 100%;
+    height: 100%
+}
+
+.twin-hero .hero-container .side-container {
+    padding-top: 72px;
+    width: 80%;
+    max-width: 1300px;
+    height: 80%;
+    position: relative
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .side-container {
+    width: 100%
+}
+
+.twin-hero .hero-container .side-container .btn.btn-white {
+    border: none
+}
+
+.twin-hero .hero-container .side-container .btn.btn-twin-hero {
+    width: 35%
+}
+
+html[data-device-type="portable"] .twin-hero .hero-container .side-container .btn.btn-twin-hero {
+    width: 50%
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .side-container .btn.btn-twin-hero {
+    width: 100%
+}
+
+.twin-hero .hero-container .side-container .hero-twin-items {
+    margin: 30px 0 30px 8%;
+    overflow: auto
+}
+
+html[data-device-type="portable"] .twin-hero .hero-container .side-container .hero-twin-items {
+    margin: 20px 0 20px 2%
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .side-container .hero-twin-items {
+    margin: 5px 0
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .hero-container .side-container .hero-twin-items .hero-twin-item {
+    float: left;
+    width: 28%;
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .hero-container .side-container .hero-twin-items .hero-twin-item p {
+    font-size: 15px;
+    font-size: 1.07142857rem
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .hero-container .side-container .hero-twin-items .hero-twin-item a {
+    color: #fff
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .hero-container .side-container .hero-twin-items .hero-twin-item img {
+    text-align: center;
+    transform: scale(.8);
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8)
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .side-container .hero-twin-items .hero-twin-item {
+    width: 100%;
+    clear: both
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .side-container .hero-twin-items .hero-twin-item p {
+    font-size: 15px;
+    font-size: 1.07142857rem;
+    text-align: left;
+    margin-left: 90px;
+    padding-top: 6px;
+    padding-bottom: 6px
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .side-container .hero-twin-items .hero-twin-item a {
+    color: #fff
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .side-container .hero-twin-items .hero-twin-item img {
+    float: left;
+    height: 70px;
+    transform: scale(.8);
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8)
+}
+
+.twin-hero .hero-container h2,
+.twin-hero .hero-container p {
+    color: #fff
+}
+
+.twin-hero .hero-container p {
+    font-size: 20px;
+    font-size: 1.42857143rem
+}
+
+.twin-hero .hero-container .round-icon {
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 42px;
+    padding: 0;
+    margin-top: 10px;
+    cursor: default;
+    animation-duration: 1.6s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+.twin-hero .hero-container .round-filled-icon {
+    display: inline-block;
+    background: #fff;
+    font-size: 40px;
+    color: #009cde;
+    border-radius: 30px;
+    -moz-background-clip: content;
+    -webkit-background-clip: content;
+    background-clip: content-box;
+    width: 50px;
+    height: 50px;
+    line-height: 42px;
+    padding: 0;
+    margin-top: 10px;
+    cursor: default;
+    animation-duration: 1.6s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+
+.twin-hero .hero-container .active {
+    border-bottom: none
+}
+
+.twin-hero .hero-container .initial {
+    position: absolute;
+    width: 400px;
+    padding-top: 130px;
+    height: auto
+}
+
+html[data-device-type="portable"] .twin-hero .hero-container .initial {
+    width: 320px
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .initial {
+    padding: 0 5%;
+    width: 90%;
+    height: 300px
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .initial p {
+    padding-top: 4px;
+    padding-bottom: 4px
+}
+
+.twin-hero .hero-container .expanded {
+    position: absolute;
+    width: 85%;
+    top: 60%;
+    transform: translateY(-52%);
+    height: auto;
+    overflow: auto;
+    display: none
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .expanded {
+    width: 90%;
+    padding: 0 5%;
+    transform: translateY(0);
+    height: auto
+}
+
+.twin-hero .hero-container .collapsed {
+    position: absolute;
+    width: 300px;
+    padding-top: 160px;
+    height: auto;
+    display: none
+}
+
+html[data-device-type="mobile"] .twin-hero .hero-container .collapsed {
+    width: 90%;
+    padding: 0 5%
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero {
+    position: absolute;
+    z-index: 20;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: transform .8s;
+    transition: transform .8s;
+    width: 85%;
+    height: 100%;
+    top: 0;
+    transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    left: -35%;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.7)
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero:after {
+    position: absolute;
+    content: "";
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    top: 0;
+    right: -1px;
+    height: 100%
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero.left-hero-collapsed {
+    transform: skewX(-10deg) translateX(-25%);
+    -moz-transform: skewX(-10deg) translateX(-25%);
+    -webkit-transform: skewX(-10deg) translateX(-25%)
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero.left-hero-collapsed .left-hero-tilt-collapsed {
+    transform: skewX(10deg) translateX(17%);
+    -moz-transform: skewX(10deg) translateX(17%);
+    -webkit-transform: skewX(10deg) translateX(17%)
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero.left-hero-expanded {
+    transform: skewX(-10deg) translateX(25%);
+    -moz-transform: skewX(-10deg) translateX(25%);
+    -webkit-transform: skewX(-10deg) translateX(25%)
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero.left-hero-expanded .left-hero-tilt-expanded {
+    transform: skewX(10deg) translateX(-9%);
+    -moz-transform: skewX(10deg) translateX(-9%);
+    -webkit-transform: skewX(10deg) translateX(-9%)
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero.left-hero-expanded .left-hero-tilt-expanded:before {
+    opacity: 1
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero .left-hero-tilt {
+    width: 100%;
+    height: 100%;
+    margin-left: 15%;
+    background: url('../images/bg/hero-bifurcated-personal2.jpg') no-repeat 60px center;
+    background-size: cover;
+    transform: skewX(10deg);
+    -moz-transform: skewX(10deg);
+    -webkit-transform: skewX(10deg);
+    -webkit-transition: transform .8s;
+    transition: transform .8s
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero .left-hero-tilt:before {
+    content: "";
+    -webkit-transition: opacity .8s;
+    transition: opacity .8s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 48, 135, 0.7), rgba(0, 156, 222, 0.7));
+    opacity: 0
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero .left-hero-tilt .side-container {
+    float: right
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero .left-hero-tilt .side-container .initial {
+    right: 30%
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero .left-hero-tilt .side-container .expanded {
+    right: 12%
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .left-hero .left-hero-tilt .side-container .collapsed {
+    right: 42%
+}
+
+html[data-device-type="portable"] .twin-hero .left-hero.left-hero-expanded .left-hero-tilt-expanded {
+    transform: skewX(10deg) translateX(-7%);
+    -moz-transform: skewX(10deg) translateX(-7%);
+    -webkit-transform: skewX(10deg) translateX(-7%)
+}
+
+html[data-device-type="portable"] .twin-hero .left-hero .left-hero-tilt {
+    background-position-x: -80px
+}
+
+html[data-device-type="portable"] .twin-hero .left-hero .left-hero-tilt .side-container .initial {
+    right: 25%
+}
+
+html[data-device-type="portable"] .twin-hero .left-hero .left-hero-tilt .side-container .expanded {
+    right: 16%
+}
+
+html[data-device-type="portable"] .twin-hero .left-hero .left-hero-tilt .side-container .collapsed {
+    right: 34%
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero {
+    position: absolute;
+    z-index: 20;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: transform .8s;
+    transition: transform .8s;
+    width: 100%;
+    height: 88%;
+    top: -36%;
+    left: 0
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero.left-hero-collapsed {
+    transform: translateY(-17%);
+    -moz-transform: translateY(-17%);
+    -webkit-transform: translateY(-17%)
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero.left-hero-collapsed .left-hero-tilt-collapsed {
+    transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -webkit-transform: translateY(30%)
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero.left-hero-expanded {
+    transform: translateY(25%);
+    -moz-transform: translateY(25%);
+    -webkit-transform: translateY(25%)
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero.left-hero-expanded .left-hero-tilt-expanded {
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0)
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero.left-hero-expanded .left-hero-tilt-expanded:before {
+    opacity: 1
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero .left-hero-tilt {
+    width: 100%;
+    height: 100%;
+    background: url('../images/bg/hero-bifurcated-personal-mobile.jpg') no-repeat center 74px;
+    background-size: cover;
+    transform: translateY(13%);
+    -moz-transform: translateY(13%);
+    -webkit-transform: translateY(13%);
+    -webkit-transition: transform .8s;
+    transition: transform .8s
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero .left-hero-tilt:before {
+    content: "";
+    -webkit-transition: opacity .8s;
+    transition: opacity .8s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 48, 135, 0.7), rgba(0, 156, 222, 0.7));
+    opacity: 0
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero .left-hero-tilt .side-container .initial {
+    top: 44%
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero .left-hero-tilt .side-container .expanded {
+    top: 30%
+}
+
+html[data-device-type="mobile"] .twin-hero .left-hero .left-hero-tilt .side-container .collapsed {
+    top: 45%
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -25%;
+    z-index: 10;
+    -webkit-transition: transform .8s;
+    transition: transform .8s;
+    transform: translateX(-8%);
+    -moz-transform: translateX(-8%);
+    -webkit-transform: translateX(-8%)
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero.right-hero-collapsed {
+    transform: translateX(25%);
+    -moz-transform: translateX(25%);
+    -webkit-transform: translateX(25%)
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero.right-hero-collapsed .right-hero-tilt-collapsed {
+    transform: translateX(-27%);
+    -moz-transform: translateX(-27%);
+    -webkit-transform: translateX(-27%)
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero.right-hero-expanded {
+    transform: translateX(-25%);
+    -moz-transform: translateX(-25%);
+    -webkit-transform: translateX(-25%)
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero.right-hero-expanded .right-hero-tilt-expanded {
+    transform: translateX(7%);
+    -moz-transform: translateX(7%);
+    -webkit-transform: translateX(7%)
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero.right-hero-expanded .right-hero-tilt-expanded:before {
+    opacity: 1
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero .right-hero-tilt {
+    width: 100%;
+    height: 100%;
+    background: url('../images/bg/hero-bifurcated-business-3.jpg') no-repeat -140px center;
+    background-size: cover;
+    -webkit-transition: transform .8s;
+    transition: transform .8s
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero .right-hero-tilt:before {
+    content: "";
+    -webkit-transition: opacity .8s;
+    transition: opacity .8s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 156, 222, 0.7), rgba(0, 48, 135, 0.7));
+    opacity: 0
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero .right-hero-tilt .side-container .initial {
+    left: 35%
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero .right-hero-tilt .side-container .expanded {
+    left: 10%
+}
+
+html:not([data-device-type="mobile"]) .twin-hero .right-hero .right-hero-tilt .side-container .collapsed {
+    left: 48%
+}
+
+html[data-device-type="portable"] .twin-hero .right-hero.right-hero-expanded .right-hero-tilt-expanded {
+    transform: translateX(4%);
+    -moz-transform: translateX(4%);
+    -webkit-transform: translateX(4%)
+}
+
+html[data-device-type="portable"] .twin-hero .right-hero .right-hero-tilt {
+    background-position-x: -360px
+}
+
+html[data-device-type="portable"] .twin-hero .right-hero .right-hero-tilt .side-container .initial {
+    left: 29%
+}
+
+html[data-device-type="portable"] .twin-hero .right-hero .right-hero-tilt .side-container .expanded {
+    left: 19%
+}
+
+html[data-device-type="portable"] .twin-hero .right-hero .right-hero-tilt .side-container .collapsed {
+    left: 41%
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero {
+    width: 100%;
+    height: 78%;
+    position: absolute;
+    bottom: -25%;
+    z-index: 10;
+    -webkit-transition: transform .8s;
+    transition: transform .8s
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero.right-hero-collapsed {
+    transform: translateY(25%);
+    -moz-transform: translateY(25%);
+    -webkit-transform: translateY(25%)
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero.right-hero-collapsed .right-hero-tilt-collapsed {
+    transform: translateY(-7%);
+    -moz-transform: translateY(-7%);
+    -webkit-transform: translateY(-7%)
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero.right-hero-expanded {
+    transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -webkit-transform: translateY(-20%)
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero.right-hero-expanded .right-hero-tilt-expanded {
+    transform: translateY(7%);
+    -moz-transform: translateY(7%);
+    -webkit-transform: translateY(7%)
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero.right-hero-expanded .right-hero-tilt-expanded:before {
+    opacity: 1
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero .right-hero-tilt {
+    width: 100%;
+    height: 100%;
+    background: url('../images/bg/hero-bifurcated-business-mobile.jpg') no-repeat center -80px;
+    background-size: cover;
+    -webkit-transition: transform .8s;
+    transition: transform .8s
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero .right-hero-tilt:before {
+    content: "";
+    -webkit-transition: opacity .8s;
+    transition: opacity .8s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 156, 222, 0.7), rgba(0, 48, 135, 0.7));
+    opacity: 0
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero .right-hero-tilt .side-container .initial {
+    top: 18%
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero .right-hero-tilt .side-container .expanded {
+    top: 4%
+}
+
+html[data-device-type="mobile"] .twin-hero .right-hero .right-hero-tilt .side-container .collapsed {
+    top: 23%
+}
+
+.hero-home {
+    overflow: hidden;
+    background-color: #000;
+    height: calc(100vh - 197px);
+    min-height: 600px
+}
+
+.hero-home h1+a.btn {
+    margin-top: 30px
+}
+
+.hero-home .message-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.hero-home .message-bar .message-content {
+    padding: 15px 0
+}
+
+.hero-home .message-bar .message-content h4,
+.hero-home .message-bar .message-content a {
+    display: inline-block
+}
+
+.hero-home .message-bar .message-content h4 {
+    color: #2c2e2f;
+    vertical-align: middle
+}
+
+.hero-home .message-bar .message-content a:not(.btn) {
+    vertical-align: -5px;
+    color: #6c7378
+}
+
+.hero-home .message-bar .message-content a.btn {
+    padding: 7px 25px;
+    margin-left: 15px;
+    min-width: 0;
+    display: inline-block
+}
+
+@media only screen and (orientation:portrait) {
+    html[data-device-type="mobile"] .hero-home .message-bar .message-content a.btn {
+        margin: 15px auto 0
+    }
+}
+
+@media only screen and (orientation:landscape) {
+    html[data-device-type="mobile"] .hero-home .message-bar .message-content a.btn {
+        margin: 15px 5px 0;
+        max-width: 230px
+    }
+}
+
+.hero-home .message-bar .message-content a.btn:hover {
+    color: #0070ba
+}
+
+@media (max-width:320px) {
+    .hero-home .message-bar .message-content {
+        padding: 15px 15px
+    }
+    .hero-home .message-bar .message-content a {
+        margin: 15px auto
+    }
+}
+
+.hero-home .subheadline {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-size: 1.71428571rem;
+    font-family: "pp-sans-big-regular", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1.225;
+    color: #FFF
+}
+
+html[data-device-type="dedicated"] .hero-home .subheadline {
+    margin-top: 10px
+}
+
+.hero-home .subheadline a {
+    font-size: 13px;
+    font-size: .92857143rem;
+    font-weight: normal;
+    color: #FFF
+}
+
+.hero-home .containerCentered {
+    height: 100%
+}
+
+.no-borderradius .hero-home .vertical-centered {
+    padding-top: 100px
+}
+
+.hero-home .shard-right {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: fixed;
+    border-width: 0 0 calc(355.1px) calc(38.16px);
+    border-color: transparent transparent #de0063 transparent;
+    bottom: 0;
+    right: 0;
+    z-index: -1
+}
+
+.hero-home.hero-cookied {
+    background-size: cover
+}
+
+.hero-home.hero-cookied p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-size: 1.28571429rem
+}
+
+.no-borderradius .hero-home {
+    height: 600px;
+    background-position: center top
+}
+
+.hero-home video {
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    opacity: .9;
+    transition: opacity .3s ease
+}
+
+.video.no-cssgradients .hero-home video {
+    display: none
+}
+
+.no-objectfit .hero-home video {
+    height: auto
+}
+
+.hero-home.curtain video {
+    opacity: .5
+}
+
+.hero-home .btn {
+    min-width: 320px
+}
+
+.hero-home .sb-media {
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+.hero-home .signup-subline {
+    font-size: 13px;
+    font-size: .92857143rem;
+    line-height: 1.5;
+    padding-top: 10px
+}
+
+.hero-home .hero-terms-eligibility:hover {
+    color: #fff
+}
+
+.mobile-only.br {
+    display: none
+}
+
+.offer-logo img {
+    position: absolute;
+    bottom: 30px;
+    right: 65px;
+    width: 140px;
+    height: auto
+}
+
+html[data-device-type="dedicated"] .hero-cookied .vertical-centered {
+    transform: translateY(-80%)
+}
+
+html[data-device-type="dedicated"] .hero-cookied .line-break {
+    display: block
+}
+
+html[data-device-type="mobile"] .hero-home {
+    min-height: 360px;
+    height: auto;
+    padding-bottom: 140px;
+    background-position: 40%
+}
+
+html[data-device-type="mobile"] .hero-home h1 {
+    font-size: 30px;
+    font-size: 2.14285714rem;
+    text-align: center;
+    padding-left: 14px;
+    padding-bottom: 14px
+}
+
+html[data-device-type="mobile"] .hero-home .btn {
+    display: block;
+    width: auto
+}
+
+html[data-device-type="mobile"] p.subheadline {
+    font-size: 20px;
+    font-size: 1.42857143rem;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px
+}
+
+html[data-device-type="mobile"] .offer-logo {
+    position: absolute;
+    bottom: 30px;
+    left: 50%
+}
+
+html[data-device-type="mobile"] .offer-logo img {
+    position: static;
+    width: 100px;
+    height: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+html[data-device-type="mobile"] .hero-cookied h1 {
+    margin-bottom: 20px
+}
+
+@media (max-width:480px) {
+    html[data-device-type="mobile"] .hero-home {
+        min-height: 460px;
+        height: auto;
+        padding-bottom: 140px
+    }
+    html[data-device-type="mobile"] .hero-home .vertical-centered {
+        padding-top: 30px
+    }
+    html[data-device-type="mobile"] .hero-home.hero-cookied .vertical-centered {
+        padding-top: 35px
+    }
+    html[data-device-type="mobile"] .mobile-modal br {
+        display: none
+    }
+    html[data-device-type="mobile"] br.mobile-only.br {
+        display: initial
+    }
+}
+
+@media (max-width:320px) {
+    html[data-device-type="mobile"] .hero-home .vertical-centered {
+        padding-top: 30px
+    }
+    html[data-device-type="mobile"] .hero-home h1 {
+        padding-left: 0;
+        padding-bottom: 0
+    }
+    html[data-device-type="mobile"].uncookied {
+        font-size: 50px;
+        font-size: 3.57142857rem
+    }
+}
+
+@media (min-width:481px) {
+    html[data-device-type="mobile"] .hero-home .vertical-centered {
+        height: auto
+    }
+    html[data-device-type="mobile"] h1 {
+        padding-top: 50px;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
+    }
+    html[data-device-type="mobile"] .hero-home .btn {
+        max-width: 321px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    html[data-device-type="mobile"] .mobile-modal form {
+        padding-top: 10px
+    }
+    html[data-device-type="mobile"] .mobile-modal .signup-subline,
+    html[data-device-type="mobile"] .mobile-modal .btn {
+        margin-top: 10px
+    }
+    html[data-device-type="mobile"] .hero-home h1 {
+        padding-top: 14px
+    }
+}
+
+@media only screen and (orientation:landscape) {
+    html[data-device-type="mobile"] .vertical-centered a.btn {
+        max-width: 270px
+    }
+}
+
+.hero-home.uncookied.control {
+    background: url("../images/bg/hero-uncookied-wire-transfer.jpg") #333 no-repeat center top;
+    background-size: cover
+}
+
+.hero-home.uncookied p.signup-subline {
+    font-size: 15px
+}
+
+html[data-device-type="portable"] .hero-home.uncookied h1 {
+    width: 100%;
+    font-size: 55px;
+    font-size: 3.92857143rem
+}
+
+html[data-device-type="portable"] .hero-home.uncookied h1 span {
+    display: block
+}
+
+html[data-device-type="dedicated"] .hero-home.uncookied p.subheadline,
+html[data-device-type="portable"] .hero-home.uncookied p.subheadline {
+    margin-top: 20px
+}
+
+html[data-device-type="dedicated"] .hero-home.uncookied .vertical-centered,
+html[data-device-type="portable"] .hero-home.uncookied .vertical-centered {
+    -webkit-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%)
+}
+
+html[data-device-type="dedicated"] .hero-home.uncookied .legal-container,
+html[data-device-type="portable"] .hero-home.uncookied .legal-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%
+}
+
+html[data-device-type="dedicated"] .hero-home.uncookied .legal-container .legal-notes,
+html[data-device-type="portable"] .hero-home.uncookied .legal-container .legal-notes {
+    display: inline-block;
+    width: 50%
+}
+
+.hero-home .hatch-text {
+    margin-top: 20px
+}
+
+.hero-home .hatch-text .legal-notes {
+    margin: 0;
+    padding: 0
+}
+
+.hero-home h1 span {
+    display: block
+}
+
+html[data-device-type="mobile"] .hero-home .hatch-text {
+    float: left;
+    width: 100%
+}
+
+.hero-home.cookied-hero-flip-tile {
+    background: url("../images/bg/hero-cookied-wire-transfer.jpg") #333 no-repeat center top;
+    min-height: 600px;
+    height: 600px;
+    background-size: cover
+}
+
+html[data-device-type="portable"] .hero-home.cookied-hero-flip-tile .vertical-centered,
+html[data-device-type="dedicated"] .hero-home.cookied-hero-flip-tile .vertical-centered {
+    -webkit-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%)
+}
+
+html[data-device-type="portable"] .hero-home.cookied-hero-flip-tile h1 {
+    width: 100%;
+    font-size: 55px;
+    font-size: 3.92857143rem
+}
+
+html[data-device-type="portable"] .hero-home.cookied-hero-flip-tile h1 span {
+    display: block
+}
+
+@media only screen and (orientation:landscape) {
+    html[data-device-type="mobile"] .hero-home.cookied-hero-flip-tile .hatch-text {
+        margin-top: 0
+    }
+}
+
+.hero-home.cookied-hero-flip-tile h1+a.btn {
+    margin-top: 30px
+}
+
+.hero-home .signup-subline .btn.btnheroghost {
+    background: none;
+    border: 1px solid #FFF;
+    position: relative;
+    color: #FFF;
+    margin-top: 10px
+}
+
+.hero-home.cookied-mors {
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover
+}
+
+@media only screen and (orientation:landscape) {
+    html[data-device-type="mobile"] .hero-home.cookied-mors a.btn {
+        max-width: 400px
+    }
+}
+
+.hero-home.cookied-mors .legal-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%
+}
+
+.hero-home.cookied-mors .legal-container .legal-notes {
+    display: inline-block;
+    width: 50%
+}
+
+@media only screen and (orientation:landscape) {
+    html[data-device-type="mobile"] .hero-home.cookied-mors .vertical-centered {
+        height: auto
+    }
+    html[data-device-type="mobile"] .hero-home.cookied-mors .legal-container {
+        position: static
+    }
+}
+
+html.no-csscolumns.no-cssanimations.no-csstransforms3d .twin-hero .hero-container .left-hero .expanded {
+    width: 65%;
+    top: 20%;
+    left: 10%
+}
+
+html.no-csscolumns.no-cssanimations.no-csstransforms3d .twin-hero .hero-container .right-hero .expanded {
+    width: 65%;
+    top: 20%;
+    left: 20%
+}
+
+.hero-home .sup-script {
+    top: -1em;
+    font-size: 50%
+}
+
+.hpw {
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+
+.hpw h2 {
+    margin-bottom: 40px
+}
+
+html[data-device-type="mobile"] .hpw {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+html[data-device-type="mobile"] .hpw h2 {
+    font-size: 20px;
+    font-size: 1.42857143rem
+}
+
+html[data-device-type="mobile"] .hpw br,
+html[data-device-type="mobile"] .hero-home br {
+    display: none
+}
+
+.hpw .btn,
+.hero-home .btn,
+.steps-interaction .btn,
+.closing-section .btn {
+    min-width: 320px
+}
+
+.hpw html[data-device-type="portable"] .btn,
+.hero-home html[data-device-type="portable"] .btn,
+.steps-interaction html[data-device-type="portable"] .btn,
+.closing-section html[data-device-type="portable"] .btn {
+    min-width: 320px
+}
+
+html[data-device-type="mobile"] .hpw .btn,
+html[data-device-type="mobile"] .hero-home .btn,
+html[data-device-type="mobile"] .steps-interaction .btn,
+html[data-device-type="mobile"] .pullout-section .btn,
+html[data-device-type="mobile"] .closing-section .btn {
+    width: 100%;
+    min-width: initial;
+    max-width: 320px;
+    margin: auto
+}
+
+@media only screen and (max-device-width:568px) and (orientation:landscape) {
+    html[data-device-type="mobile"] .hpw .btn.btn-hero,
+    html[data-device-type="mobile"] .hero-home .btn.btn-hero,
+    html[data-device-type="mobile"] .steps-interaction .btn.btn-hero,
+    html[data-device-type="mobile"] .pullout-section .btn.btn-hero,
+    html[data-device-type="mobile"] .closing-section .btn.btn-hero {
+        max-width: 270px
+    }
+}
+
+html[data-device-type="dedicated"] .pullout-section .btn {
+    max-width: 320px
+}
+
+.make-most .containerCentered.container {
+    text-align: center
+}
+
+.make-most .containerCentered.container .legal-notes {
+    clear: both;
+    padding-top: 30px
+}
+
+.make-most .containerCentered.container .panel-img {
+    margin: 30px auto 20px
+}
+
+.paypal-app {
+    background-image: url("../images/bg/pay-offer-image_cookied.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+html[data-device-type="mobile"] .paypal-app {
+    background-position: 85% top
+}
+
+html[data-device-type="mobile"] .paypal-app .editorial-text.editorial-container {
+    padding-top: 285px;
+    padding-bottom: 10px
+}
+
+html[data-device-type="portable"] .paypal-app {
+    background-position: 56% center
+}
+
+.editorial-bg.parallax {
+    position: relative;
+    background-color: transparent
+}
+
+.sign-up-form {
+    padding: 30px 0
+}
+
+.c1 .containerCentered {
+    position: relative
+}
+
+.c1 h3 {
+    font-family: "pp-sans-big-regular", Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+    font-variant: normal
+}
+
+html[data-device-type="dedicated"] .c1 {
+    border-top: 380px solid #f7f9fa;
+    padding-top: 160px
+}
+
+html[data-device-type="dedicated"] .c1.white-bg {
+    border-top: 380px solid #fff
+}
+
+html[data-device-type="dedicated"] .c1.treatment {
+    border-top: 380px solid #fff
+}
+
+html[data-device-type="dedicated"] .c1 header {
+    padding-bottom: 40px
+}
+
+html[data-device-type="dedicated"] .c1 .pulloutHeadline {
+    position: relative
+}
+
+html[data-device-type="dedicated"] .c1 .pulloutHeadline:before {
+    content: "";
+    position: absolute;
+    top: -562px;
+    left: 0;
+    width: 100%;
+    height: 562px;
+    background: url("../images/bg/paypal-on-devices-home.png") center center no-repeat;
+    background-size: contain
+}
+
+@media (-webkit-min-device-pixel-ratio:2),
+(min-resolution:192dpi) {
+    html[data-device-type="dedicated"] .c1 .pulloutHeadline:before {
+        background-image: url("../images/bg/paypal-on-devices-home-2x.png")
+    }
+}
+
+.four-tile-flip-container {
+    background-color: #f7f9fa
+}
+
+.four-tile-flip-container .row-fluid {
+    background-color: #f7f9fa
+}
+
+.four-tile-flip-container .span3 {
+    background-color: #fff
+}
+
+.four-tile-flip-container .span3 h2 {
+    padding-bottom: 24px
+}
+
+.four-tile-flip-container .front img {
+    margin-top: 10px
+}
+
+.four-tile-flip-container .back span {
+    display: block;
+    margin-top: 15px
+}
+
+html[data-device-type="dedicated"] .four-panel.four-tile-flip-container .span3 {
+    padding-right: 0
+}
+
+html[data-device-type="portable"] .four-tile-flip-container .span3,
+html[data-device-type="mobile"] .four-tile-flip-container .span3 {
+    padding: 2% 1%
+}
+
+html[data-device-type="portable"] .four-tile-flip-container .span3 h2,
+html[data-device-type="mobile"] .four-tile-flip-container .span3 h2 {
+    font-weight: bold;
+    color: #0079ad
+}
+
+html[data-device-type="portable"] .four-tile-flip-container .span3 .back,
+html[data-device-type="mobile"] .four-tile-flip-container .span3 .back {
+    display: none
+}
+
+html[data-device-type="portable"] .four-tile-flip-container .front img,
+html[data-device-type="mobile"] .four-tile-flip-container .front img {
+    margin-top: 0
+}
+
+@media (orientation:portrait) {
+    html[data-device-type="portable"] .four-tile-flip-container .container4d2p1m .span3:nth-child(2n+1) {
+        margin-left: 0
+    }
+    html[data-device-type="portable"] .four-tile-flip-container .container4d2p1m .span3 {
+        margin-top: 25px
+    }
+}
+
+html[data-device-type="mobile"] .four-tile-flip-container .row-fluid .container4d2p1m .span3 {
+    margin-bottom: 8%;
+    width: 46%;
+    float: left;
+    padding: 4% 2%
+}
+
+html[data-device-type="mobile"] .four-tile-flip-container .row-fluid .container4d2p1m .span3:nth-child(n) {
+    clear: left
+}
+
+html[data-device-type="mobile"] .four-tile-flip-container .row-fluid .container4d2p1m .span3:nth-child(2n) {
+    margin-left: 8%;
+    clear: right
+}
+
+@media only screen and (orientation:portrait) {
+    html[data-device-type="mobile"] .four-tile-flip-container .row-fluid .container4d2p1m .span3 h2 {
+        font-size: 12px;
+        font-size: .85714286rem
+    }
+    html[data-device-type="mobile"] .four-tile-flip-container .front img {
+        height: 70px
+    }
+}
+
+@media only screen and (orientation:landscape) {
+    html[data-device-type="mobile"] .four-tile-flip-container .row-fluid .container4d2p1m .span3 h2 {
+        font-size: 16px;
+        font-size: 1.14285714rem
+    }
+    html[data-device-type="mobile"] .four-tile-flip-container .front img {
+        height: 100px
+    }
+}
+
+html[data-device-type="dedicated"].no-backgroundsize .c1 {
+    border-top: 0
+}
+
+html[data-device-type="dedicated"].no-backgroundsize .c1 .pulloutHeadline:before {
+    display: none
+}
+
+.two-panels {
+    text-align: center
+}
+
+.two-panels .footer {
+    clear: both;
+    padding-top: 50px
+}
+
+.two-panels .contentLink {
+    padding: 13px 30px 15px 30px
+}
+
+@media only screen and (orientation:portrait) {
+    html[data-device-type="portable"] .two-panels .btn {
+        width: 100%
+    }
+    html[data-device-type="portable"] .two-panels .span6>p.contentPara {
+        min-height: 115px
+    }
+}
+
+.steps-interaction p.dd-text {
+    display: inline-block;
+    font-size: 18px;
+    font-size: 1.28571429rem
+}
+
+.steps-interaction a:hover {
+    text-decoration: none
+}
+
+.steps-interaction .steps-dd-container {
+    display: inline-block;
+    position: relative
+}
+
+.steps-interaction .steps-dd-container .steps-dd-header {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 14px 36px 15px 16px;
+    background-color: #fff;
+    color: #de0063;
+    display: inline-block;
+    font-weight: normal
+}
+
+.steps-interaction .steps-dd-container .steps-dd-header:after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 23px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    border-width: 5px 5px;
+    border-top-color: #de0063
+}
+
+.steps-interaction .steps-dd-container .steps-dd-list {
+    margin: 0;
+    max-height: 0;
+    background-color: #fff;
+    color: #de0063;
+    -webkit-transition: max-height .2s ease-out;
+    -moz-transition: max-height .2s ease-out;
+    -o-transition: max-height .2s ease-out;
+    transition: max-height .2s ease-out;
+    overflow-y: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 120
+}
+
+.steps-interaction .steps-dd-container .steps-dd-list.slide-down {
+    max-height: 800px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)
+}
+
+.steps-interaction .steps-dd-container .steps-dd-list .list {
+    padding: 9px 0;
+    color: #6c7378;
+    display: block;
+    font-weight: normal
+}
+
+.steps-interaction .steps-dd-container .steps-dd-list .list:hover,
+.steps-interaction .steps-dd-container .steps-dd-list .list:focus {
+    color: #0c8dc4
+}
+
+.steps-interaction .steps-dd-container .steps-dd-list .list.selected {
+    color: #de0063
+}
+
+.steps-interaction .steps-dd-container .steps-dd-list li:first-child a {
+    padding-top: 20px
+}
+
+.steps-interaction .steps-dd-container .steps-dd-list li:last-child a {
+    padding-bottom: 20px
+}
+
+.steps-interaction .svg-icon {
+    pointer-events: none;
+    text-align: center
+}
+
+.steps-interaction .svg-icon,
+.steps-interaction .three-steps {
+    transition: opacity 1s ease-in-out;
+    opacity: 1
+}
+
+.steps-interaction .animate-steps {
+    opacity: 0
+}
+
+.steps-interaction .hatch-link {
+    display: block;
+    margin-top: 10px
+}
+
+html.no-js .steps-interaction .three-steps .three-steps-container {
+    display: none
+}
+
+html.no-js .steps-interaction .three-steps .three-steps-container:first-child {
+    display: block
+}
+
+html.no-js .steps-interaction .cta-container {
+    display: none
+}
+
+html.no-js .steps-interaction .cta-container:first-child {
+    display: block
+}
+
+html[data-device-type="dedicated"] .steps-interaction .dd-text,
+html[data-device-type="portable"] .steps-interaction .dd-text {
+    margin-right: 15px
+}
+
+html[data-device-type="dedicated"] .steps-interaction .svg-icon,
+html[data-device-type="portable"] .steps-interaction .svg-icon {
+    height: 0;
+    width: 100%;
+    padding-top: 22.3%;
+    position: relative
+}
+
+html[data-device-type="dedicated"] .steps-interaction .svg-icon svg,
+html[data-device-type="portable"] .steps-interaction .svg-icon svg {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+html[data-device-type="dedicated"] .steps-interaction .steps-dd-container,
+html[data-device-type="portable"] .steps-interaction .steps-dd-container {
+    width: auto;
+    text-align: left
+}
+
+html[data-device-type="dedicated"] .steps-interaction .steps-dd-container .steps-dd-header,
+html[data-device-type="portable"] .steps-interaction .steps-dd-container .steps-dd-header {
+    font-size: 18px;
+    font-size: 1.28571429rem
+}
+
+html[data-device-type="dedicated"] .steps-interaction .steps-dd-container .steps-dd-list,
+html[data-device-type="portable"] .steps-interaction .steps-dd-container .steps-dd-list {
+    overflow: hidden;
+    width: auto;
+    font-size: 18px;
+    font-size: 1.28571429rem
+}
+
+html[data-device-type="dedicated"] .steps-interaction .steps-dd-container .list,
+html[data-device-type="portable"] .steps-interaction .steps-dd-container .list {
+    white-space: pre;
+    padding: 9px 15px
+}
+
+html[data-device-type="dedicated"] .steps-interaction .steps,
+html[data-device-type="portable"] .steps-interaction .steps {
+    padding: 0 0 50px
+}
+
+html[data-device-type="portable"] .steps-interaction .dd-text {
+    margin-right: 10px
+}
+
+html[data-device-type="mobile"] .steps-interaction {
+    overflow: hidden
+}
+
+html[data-device-type="mobile"] .steps-interaction .span12 {
+    padding-right: 0
+}
+
+html[data-device-type="mobile"] .steps {
+    padding: 0;
+    border: none;
+    overflow: hidden
+}
+
+html[data-device-type="mobile"] .slide-control {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    text-indent: 9999px;
+    top: 54%
+}
+
+html[data-device-type="mobile"] .slide-control.left {
+    background-image: url("../images/icons/steps-control-left.svg")
+}
+
+html[data-device-type="mobile"] .slide-control.right {
+    background-image: url("../images/icons/steps-control-right.svg");
+    right: 16px
+}
+
+html[data-device-type="mobile"] .indicator-container {
+    text-align: center;
+    padding-top: 15px
+}
+
+html[data-device-type="mobile"] .indicator-container .indicator {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    border: 1px solid #9da3a6;
+    background: #fff
+}
+
+html[data-device-type="mobile"] .indicator-container .indicator.on {
+    background: #9da3a6
+}
+
+html[data-device-type="dedicated"] .flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    -ms-perspective: 1000px;
+    -ms-transform-style: preserve-3d;
+    perspective: 1000;
+    cursor: pointer
+}
+
+html[data-device-type="dedicated"] .flip-container a {
+    text-decoration: none
+}
+
+html[data-device-type="dedicated"] .flip-container .flipper:hover .front {
+    -ms-transform: rotateY(-180deg)
+}
+
+html[data-device-type="dedicated"] .flip-container .flipper:hover .back {
+    -ms-transform: rotateY(0deg)
+}
+
+html[data-device-type="dedicated"] .flip-container:hover .flipper,
+html[data-device-type="dedicated"] .flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -ms-transform: rotateY(0deg)
+}
+
+html[data-device-type="dedicated"] .flipper {
+    -webkit-transition: .6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: .6s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: .6s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: .6s;
+    -ms-transform-style: preserve-3d;
+    transition: .6s;
+    transform-style: preserve-3d;
+    position: relative;
+    padding: 5%
+}
+
+html[data-device-type="dedicated"] .front,
+html[data-device-type="dedicated"] .back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -ms-transition: .6s;
+    -ms-transform-style: preserve-3d;
+    min-height: 200px;
+    width: 100%
+}
+
+html[data-device-type="dedicated"] .front {
+    z-index: 2;
+    -ms-transform: rotateY(0deg)
+}
+
+html[data-device-type="dedicated"] .back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -ms-transform: rotateY(-180deg);
+    position: absolute;
+    background-image: radial-gradient(circle farthest-side at center bottom, #009cde, #003087 125%);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5% 0
+}
+
+html[data-device-type="dedicated"] .back h2 {
+    color: #fff
+}
+
+html[data-device-type="dedicated"] .back p {
+    padding: 5%;
+    color: #fff
+}
+/**
+* @fileOverview App badges to show on page as needed
+* @name app-badges.css
+* @author mdaveshah
+*/
+.app {
+  display: inline-block;
+  margin-left: 10px;
+  height: 40px;
+  width: 135px;
+  background: url("https://www.paypalobjects.com/webstatic/en_US/mktg/wright/icons/appbadges_2x_sprite.png") no-repeat 0 0;
+  background-size: 135px 800px;
+}
+.app-fr{
+  background: url("https://www.paypalobjects.com/webstatic/fr_CA/mktg/wright/icons/appbadges_1x_sprite.png") no-repeat 0 0;
+}
+.no-backgroundsize .app {
+  /* for IE 8 and IE 9*/
+  background-image: url("https://www.paypalobjects.com/webstatic/en_US/mktg/wright/icons/appbadges_1x_sprite.png");
+}
+.apple,
+.apple-light {
+  margin-left: 0;
+}
+.apple:hover,
+.apple:focus {
+  background-position: 0 -40px;
+}
+.android {
+  background-position: 0 -80px;
+}
+.android:hover,
+.android:focus {
+  background-position: 0 -120px;
+}
+.windows {
+  background-position: 0 -160px;
+}
+.windows:hover,
+.windows:focus {
+  background-position: 0 -200px;
+}
+.amazon {
+  background-position: 0 -480px;
+}
+.amazon:hover,
+.amazon:focus {
+  background-position: 0px -520px;
+}
+/* lighter version */
+.apple-light {
+  background-position: 0 -240px;
+}
+.apple-light:hover,
+.apple-light:focus {
+  background-position: 0 -280px;
+}
+.android-light {
+  background-position: 0 -320px;
+}
+.android-light:hover,
+.android-light:focus {
+  background-position: 0 -360px;
+}
+.windows-light {
+  background-position: 0 -400px;
+}
+.windows-light:hover,
+.windows-light:focus {
+  background-position: 0 -440px;
+}
+.amazon-light {
+  background-position: 0 -480px;
+}
+.amazon-light:hover,
+.amazon-light:focus {
+  background-position: 0px -520px;
+}
